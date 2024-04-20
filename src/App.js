@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Custombutton from './Class-components/button';
+import Button from './functional-components/button';
 
 function App() {
   return (
     <div className="App">
+      <Custombutton></Custombutton>
+      <Button></Button>
+    
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
