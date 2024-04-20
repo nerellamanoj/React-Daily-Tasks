@@ -8,5 +8,6 @@ class Custombutton extends Component {
       </>
     );
   }
+  
 }
-export default Custombutton
+export default Custombutton;
