@@ -2,12 +2,23 @@ import logo from './logo.svg';
 import './App.css';
 import Custombutton from './Class-components/button';
 import Button from './functional-components/button';
+// import List from './functional-components/lists/list';
+// import FakeStore from './functional-components/lists/list';
+// import FakeStore from './functional-components/lists/list';
+import Fruits from './functional-components/lists/map';
 
 function App() {
   return (
     <div className="App">
-      <Custombutton></Custombutton>
+      {/* <Custombutton></Custombutton>
       <Button></Button>
+       */}
+       {/* <FakeStore></FakeStore> */}
+
+       {/* <List/> */}
+       <Fruits></Fruits>
+
+       {/* <FakeStore></FakeStore> */}
     
 
       {/* <header className="App-header">
