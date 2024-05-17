@@ -1,0 +1,15 @@
+.Nerella{
+    color: red;
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    display: block;
+    flex-direction: row ;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+   
+    
+}
+

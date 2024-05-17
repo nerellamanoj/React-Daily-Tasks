@@ -1,0 +1,15 @@
+.productlisting {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px;
+  gap: 5px;
+}
+.cards {
+  width: 30.33%;
+  border: 2px solid black;
+  padding: 20px;
+}
+.cards:hover{
+    scale: 0.9;
+}
