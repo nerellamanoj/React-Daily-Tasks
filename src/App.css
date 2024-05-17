@@ -7,9 +7,22 @@
   pointer-events: none;
 }
 table,tr,td{
-  border: 2px solid black;
   border-collapse: collapse;
+   border: 2px solid black;
+ }
+ .student{
+  font-family: sans-serif;
+  font-size: 2em;
+  border: 2px solid red;
+  width: 250px;
+  display:inline-block;
+  
+ 
 }
+.student p{
+  margin:0px;
+}
+ 
 
 
 

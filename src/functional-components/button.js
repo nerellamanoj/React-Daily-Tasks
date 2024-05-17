@@ -1,13 +1,26 @@
-import React from "react";
+import React, { Children } from "react";
 
-function Button() {
-  var url = "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg";
-  return (
+function Button(props) {
+  const{Children}=props
+  
+  return(
     <>
-      <img src={url} width={100} height={100} />
-      <button>singnup</button>
+    {
+      Children
+    }
+
+
+
     </>
-  );
+
+    
+   
+   
+
+
+    
+  )
 }
+  
 
 export default Button;
