@@ -31,11 +31,17 @@ import "./App.css";
 // import Counter from "./functional-components/Hoo/sks/UseState/counter";
 // import UnControlledInput from "./functional-components/Hoosks/forms/unControlled";
 // import Demo from "./functional-components/Hoosks/forms/demo";
-import ProductListing from "./Class-components/lifecycle/mounting/productlisting";
+// import ControlledComponents from "./functional-components/Hoosks/forms/controlled";
+import FormControlled from "./functional-components/Hoosks/forms/controlled2";
+// import ProductListing from "./Class-components/lifecycle/mounting/productlisting";
 function App() {
   return (
     <div className="App">
-      <ProductListing/>
+
+      <FormControlled/>
+
+      {/* <ControlledComponents/> */}
+      {/* <ProductListing/> */}
       {/* <Demo/> */}
       {/* <UnControlledInput/> */}
       {/* <Counter/> */}
