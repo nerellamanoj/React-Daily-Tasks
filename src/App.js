@@ -31,11 +31,28 @@ import "./App.css";
 // import Counter from "./functional-components/Hoo/sks/UseState/counter";
 // import UnControlledInput from "./functional-components/Hoosks/forms/unControlled";
 // import Demo from "./functional-components/Hoosks/forms/demo";
-import ProductListing from "./Class-components/lifecycle/mounting/productlisting";
+// import ControlledComponents from "./functional-components/Hoosks/forms/controlled";
+// import FormControlled from "./functional-components/Hoosks/forms/controlled2";
+// import UseEffect from "./functional-components/Hoosks/useEffect/useEffect";
+// import ProductListing from "./Class-components/lifecycle/mounting/productlisting";
+// import UseEffect from "./functional-components/Hoosks/useEffect/useEffect";
+// import NavigationStack from "./functional-components/navigations/staticnavigations";
+// import UseEffect2 from "./functional-components/Hoosks/useEffect/useEffect2";
+import UseReducer from "./functional-components/Hoosks/forms/usereducer/usereducer";
 function App() {
   return (
     <div className="App">
-      <ProductListing/>
+      <UseReducer/>
+
+
+      {/* <NavigationStack/> */}
+
+      {/* <FormControlled/> */}
+      {/* <UseEffect/> */}
+      {/* <UseEffect2/> */}
+
+      {/* <ControlledComponents/> */}
+      {/* <ProductListing/> */}
       {/* <Demo/> */}
       {/* <UnControlledInput/> */}
       {/* <Counter/> */}
@@ -130,7 +147,7 @@ function App() {
       {/* {
         isloggedin?<Text msg=" login true"/>: <Text msg=" login fasle"/>
       } */}
-    </div>
+     </div>
   );
 }
 
