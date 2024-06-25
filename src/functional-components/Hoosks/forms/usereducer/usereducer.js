@@ -49,6 +49,9 @@ export default function UseReducer() {
       <button onClick={DecrementAge}>DecrementAge</button>
       <button>Incrementcount</button>
       <button>decrementcount</button>
+      
+
+
     </div>
   );
 }

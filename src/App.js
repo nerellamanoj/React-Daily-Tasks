@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 // // import Button from "./functional-components/button";
 // import Custombutton from "./Class-components/button";
@@ -38,11 +38,22 @@ import "./App.css";
 // import UseEffect from "./functional-components/Hoosks/useEffect/useEffect";
 // import NavigationStack from "./functional-components/navigations/staticnavigations";
 // import UseEffect2 from "./functional-components/Hoosks/useEffect/useEffect2";
-import UseReducer from "./functional-components/Hoosks/forms/usereducer/usereducer";
+// import UseReducer from "./functional-components/Hoosks/forms/usereducer/usereducer";
+// import Counter from "./practise/useState";
+// import useRef from "./practise/useRef";
+import UseRef from "./practise/useRef";
+import ControlledComponent from "./practise/controlledComponent";
 function App() {
   return (
     <div className="App">
-      <UseReducer/>
+      {/* <Counter/> */}
+      {/* <UseRef/> */}
+      {/* <useref/> */}
+      <ControlledComponent/>
+
+
+
+      {/* <UseReducer/> */}
 
 
       {/* <NavigationStack/> */}
